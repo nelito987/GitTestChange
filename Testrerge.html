@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Kendo UI Snippet</title>
+
+    <link rel="stylesheet" href="https://kendo.cdn.telerik.com/2022.3.1109/styles/kendo.default-v2.min.css"/>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2022.3.1109/js/kendo.all.min.js"></script>
+</head>
+<body>
+  
+<div style="padding: 10px; background: #cccccc;">
+    <button id="button" type="button">Foo</button>
+</div>
+<script>
+    $("#button").kendoButton({
+        badge: {
+            text: 1234,
+            max: 99,
+            themeColor: "warning",
+            shape: "circle",
+            cutoutBorder: true
+        }
+    });
+</script>
+</body>
+</html>
